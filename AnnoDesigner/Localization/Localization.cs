@@ -1279,7 +1279,7 @@ namespace AnnoDesigner.Localization
                     ["RenderVersionOnExportedImage"] = "Версия рендеринга на экспортированном изображении"
                 },
                 ["cn"] = new Dictionary<string, string>()
-                 {
+                {
                     ["File"] = "文件",
                     ["NewCanvas"] = "新画布",
                     ["Open"] = "打开",
@@ -1332,10 +1332,10 @@ namespace AnnoDesigner.Localization
                     ["Radius"] = "半径",
                     ["Range"] = "范围",
                     ["Distance"] = "距离",
-                    ["Both"] = "双方",
+                    ["Both"] = "半径&距离",
                     ["PavedStreet"] = "铺好的街道",
                     ["PavedStreetWarningTitle"] = "选中铺好的街道",
-                    ["PavedStreetToolTip"] = $"Checking this option will change the Influence Range for buildings, {Environment.NewLine}representing the increased range they receive when using paved streets.{Environment.NewLine}Use the 'Place Building' button to place an object.",
+                    ["PavedStreetToolTip"] = $"选中此选项将更改建筑物的影响范围，{Environment.NewLine}代表他们使用铺好的街道时接收到的增加的范围。{Environment.NewLine}使用“放置建筑”按钮放置一个对象。",
                     ["Options"] = "选项",
                     ["EnableLabel"] = "启用标签",
                     ["Borderless"] = "无边框",
@@ -1480,8 +1480,8 @@ namespace AnnoDesigner.Localization
                     ["ShowMultipleInstanceWarning"] = "如果打开多个实例则显示警告",
                     ["WarningMultipleInstancesAreRunning"] = "有一个更新，但该应用程序被多次打开，关闭所有实例并仅启动 1 个实例以允许更新工作",
                     ["SelectAllSameIdentifier"] = "选择所有相同类型的建筑",
-                    ["RenderVersionOnExportedImage"] = "导出图像的渲染版本",
-                },
+                    ["RenderVersionOnExportedImage"] = "导出图像的渲染版本" 
+                }
             };
 
             Instance._commons = commons;
